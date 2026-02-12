@@ -2,11 +2,11 @@
 title: "Addiel Antonio Platas Renteral"
 image: "Antonio.jpg"
 links:
-  - label: BlueSky
+  - label: <img src="BlueSky.png" width=30 height=30>
     url: "https://bsky.app/profile/antoniorenteral.bsky.social"
-  - label: GitHub
+  - label: <img src="Github.jpg" width=30 height=30>
     url: "https://github.com/Antonio-Renteral"
-  - label: Email
+  - label: <img src="Gmail.png" width=30 height=30>
     url: "mailto:addielpr@lcg.unam.mx"
 output:
   postcards::trestles
