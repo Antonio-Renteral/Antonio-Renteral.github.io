@@ -4,8 +4,6 @@ image: "Antonio.jpg"
 links:
   - label: BlueSky
     url: "https://bsky.app/profile/antoniorenteral.bsky.social"
-  - label: Twitter
-    url: "https://twitter.com/"
   - label: GitHub
     url: "https://github.com/Antonio-Renteral"
   - label: Email
@@ -27,6 +25,10 @@ My interests also extend to evolutionary biology, paleogenomics, regenerative me
 **National Autonomous University of Mexico (UNAM)** | Cuernavaca, Morelos, Mexico
 
 Undergraduate Student in Genomic Sciences | August 2024 – July 2028
+
+**Escuela Hispano Mexicana** | Córdoba, Veracruz, Mexico
+
+High School Diploma | August 2021 – July 2024
 
 ## Experience
 
