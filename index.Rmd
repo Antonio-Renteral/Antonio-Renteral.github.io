@@ -11,7 +11,13 @@ links:
 output:
   postcards::trestles
 ---
- 
+
+<style>
+body {
+  background-color: #f0c095;
+}
+</style>
+
 ## Biography
 
 I am an undergraduate student in Genomic Sciences at the National Autonomous University of Mexico (UNAM), campus Cuernavaca. My academic interests focus on genomics, evolution, bioinformatics, and molecular biology.
