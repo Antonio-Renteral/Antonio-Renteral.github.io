@@ -8,7 +8,7 @@ output:
 <style>
 /* Fondo y tipografía */
 body {
-  background-color: #9FD5D1;
+  background-color: #117c6f;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1a1a1a;
 }
