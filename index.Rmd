@@ -20,10 +20,10 @@ body {
   color: #1a1a1a;
 }
 
-/* Títulos con color y línea inferior */
+/* Subtítulos en negro */
 h2 {
-  color: #0B3D91;
-  border-bottom: 2px solid #0B3D91;
+  color: #000000;
+  border-bottom: 2px solid #000000;
   padding-bottom: 4px;
 }
 
@@ -45,22 +45,27 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* Íconos de contacto más grandes con hover */
-.links img {
+/* Botones de contacto debajo del nombre */
+.contact-buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-buttons img {
   width: 50px;
   height: 50px;
-  margin-right: 10px;
+  margin: 0 8px;
   border-radius: 8px;
   transition: transform 0.2s;
 }
 
-.links img:hover {
+.contact-buttons img:hover {
   transform: scale(1.2);
 }
 </style>
 
-<!-- Links de contacto -->
-<div class="links">
+<!-- Botones de contacto debajo del título -->
+<div class="contact-buttons">
   <a href="https://bsky.app/profile/antoniorenteral.bsky.social">
     <img src="BlueSky.png">
   </a>
