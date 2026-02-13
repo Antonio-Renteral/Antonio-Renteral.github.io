@@ -14,7 +14,7 @@ output:
 
 <style>
 body {
-  background-color: #f0c095;
+  background-color: #9FD5D1;
 }
 </style>
 
