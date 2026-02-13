@@ -1,13 +1,6 @@
 ---
 title: "Addiel Antonio Platas Renteral"
 image: "Antonio.jpg"
-links:
-  - label: <img src="BlueSky.png" width=30 height=30>
-    url: "https://bsky.app/profile/antoniorenteral.bsky.social"
-  - label: <img src="Github.jpg" width=30 height=30>
-    url: "https://github.com/Antonio-Renteral"
-  - label: <img src="Gmail.png" width=30 height=30>
-    url: "mailto:addielpr@lcg.unam.mx"
 output:
   postcards::trestles
 ---
@@ -36,16 +29,19 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Foto principal con borde redondeado */
+/* Foto principal completamente circular */
 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 12px;
+  border-radius: 50%; /* círculo perfecto */
   object-fit: cover;
   margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Botones de contacto debajo del nombre */
+/* Botones de contacto debajo de la foto */
 .contact-buttons {
   margin-top: 10px;
   text-align: center;
@@ -64,7 +60,7 @@ h2 {
 }
 </style>
 
-<!-- Botones de contacto debajo del título -->
+<!-- Botones de contacto manualmente debajo de la foto -->
 <div class="contact-buttons">
   <a href="https://bsky.app/profile/antoniorenteral.bsky.social">
     <img src="BlueSky.png">
