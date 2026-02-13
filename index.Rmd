@@ -13,19 +13,67 @@ output:
 ---
 
 <style>
+/* Fondo y tipografía */
 body {
   background-color: #9FD5D1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
 }
 
+/* Títulos con color y línea inferior */
+h2 {
+  color: #0B3D91;
+  border-bottom: 2px solid #0B3D91;
+  padding-bottom: 4px;
+}
+
+/* Tarjetas para secciones */
+.card {
+  background-color: #ffffffaa; /* blanco semi-transparente */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+/* Foto principal con borde redondeado */
 .avatar {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 12px;
   object-fit: cover;
+  margin-bottom: 15px;
 }
 
+/* Íconos de contacto más grandes con hover */
+.links img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.links img:hover {
+  transform: scale(1.2);
+}
 </style>
 
+<!-- Links de contacto -->
+<div class="links">
+  <a href="https://bsky.app/profile/antoniorenteral.bsky.social">
+    <img src="BlueSky.png">
+  </a>
+  <a href="https://github.com/Antonio-Renteral">
+    <img src="Github.jpg">
+  </a>
+  <a href="mailto:addielpr@lcg.unam.mx">
+    <img src="Gmail.png">
+  </a>
+</div>
+
+<!-- Biografía -->
+<div class="card">
 ## Biography
 
 I am an undergraduate student in Genomic Sciences at the National Autonomous University of Mexico (UNAM), campus Cuernavaca. My academic interests focus on genomics, evolution, bioinformatics, and molecular biology.
@@ -33,7 +81,10 @@ I am an undergraduate student in Genomic Sciences at the National Autonomous Uni
 Throughout my academic training, I have completed coursework in R, Python, and Bash, as well as in core biological disciplines such as evolutionary biology, molecular biology, genetics, and cell biology. This interdisciplinary foundation has allowed me to integrate computational approaches with biological theory, developing analytical workflows for biological data interpretation and working with large-scale genomic datasets.
 
 My interests also extend to paleogenomics, regenerative medicine, and the biotechnological production of bioactive metabolites from plants and microorganisms. I am particularly motivated by the intersection of biology and computation, aiming to better understand the evolutionary and molecular mechanisms underlying complex biological systems and contribute to innovative applications in biotechnology and medicine.
+</div>
 
+<!-- Educación -->
+<div class="card">
 ## Education
 
 **National Autonomous University of Mexico (UNAM)** | Cuernavaca, Morelos, Mexico
@@ -43,7 +94,11 @@ Undergraduate Student in Genomic Sciences | August 2024 – July 2028
 **Escuela Hispano Mexicana** | Córdoba, Veracruz, Mexico
 
 High School Diploma | August 2021 – July 2024
+</div>
 
+<!-- Experiencia -->
+<div class="card">
 ## Experience
 
 **Laboratory of Evolutionary Genomics, Center for Genomic Sciences (CCG), UNAM** | Undergraduate Research Assistant | 2025 – Present
+</div>
